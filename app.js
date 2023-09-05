@@ -5,3 +5,7 @@ app.use(express.urlencoded({extended: true}))
 app.route("/", (req, res) => {
 
 })
+
+app.listen(3000, () => {
+    console.log("Server is running")
+})
